@@ -4,7 +4,7 @@ import { faCloud, faServer, faCodeBranch } from "@fortawesome/free-solid-svg-ico
 
 export default function Home() {
   return (
-    <section className="home-section">
+    <section id="home" className="home-section">
       {/* Background Particles */}
       <div className="particles-bg"></div>
 
