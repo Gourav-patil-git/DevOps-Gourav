@@ -10,10 +10,10 @@ export default function Navbar() {
       <div className="logo">Gourav's Portfolio</div>
 
       <div className={`nav-links ${open ? "open" : ""}`}>
-        <a href="#">Home</a>
-        <a href="#">About</a>
+        <a href="/">Home</a>
+        <a href="/About.jsx">About</a>
         <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="/Education.jsx">Contact</a>
       </div>
 
       <div
