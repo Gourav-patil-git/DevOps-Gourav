@@ -9,9 +9,9 @@ export default function Education() {
         {/* Graduation */}
         <div className="education-card">
           <div className="education-icon">🎓</div>
-          <h3>Bachelor of Technology (B.Tech)</h3>
-          <p className="institution">ABC University</p>
-          <p className="year">2015 - 2019</p>
+          <h3>B.Sc Computer Science</h3>
+          <p className="institution">Shivaji University Kolhapur</p>
+          <p className="year">2020 - 2023</p>
           <p className="details">
             Specialized in Computer Science. Learned programming, algorithms, and
             software development fundamentals.
@@ -21,12 +21,12 @@ export default function Education() {
         {/* Postgraduation */}
         <div className="education-card">
           <div className="education-icon">🎓</div>
-          <h3>Master of Science (M.Sc)</h3>
-          <p className="institution">XYZ University</p>
-          <p className="year">2019 - 2021</p>
+          <h3>Master of Computer Application</h3>
+          <p className="institution">Savitribai Phule Pune University</p>
+          <p className="year">2023 - 2025</p>
           <p className="details">
-            Focused on Data Science and Machine Learning. Completed projects on
-            AI and big data analytics.
+            Focused on Cloud Computing and DevOps. Completed projects on
+            Cloud Computing and DevOps.
           </p>
         </div>
       </div>
