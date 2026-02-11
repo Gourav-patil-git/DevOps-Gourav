@@ -3,6 +3,8 @@ import Home from "./Home";
 import About from "./About";
 import Education from "./Education";
 import Contact from "./Contact";
+import Skills from "./Skills";
+import Footer from "./Footer";
 
 export default function App() {
   return (
@@ -11,7 +13,9 @@ export default function App() {
       <Home />
       <About />
       <Education />
+      <Skills />
       <Contact />
+      <Footer />
     </>
   );
 }

@@ -11,16 +11,25 @@ export default function About() {
 
         <div className="about-content">
           <h2>About Me</h2>
-          <p>
-            Hi 👋 I’m <span>Gourav Patil</span>, a passionate web developer who loves
-            building clean, responsive, and user-friendly websites. I enjoy
-            working with modern technologies and turning ideas into reality.
+           <p>
+            Hi, I’m <span>Gourav Patil</span>, a passionate Web Developer and Cloud & DevOps enthusiast. 
+            I love building scalable, responsive, and user-friendly web applications while leveraging modern cloud technologies.
           </p>
 
           <p>
-            My focus is on writing clean code, creating smooth UI experiences,
-            and continuously learning new tools and frameworks.
+            I have completed my <strong>MCA (Master of Computer Applications) 2025</strong> 
+            and earned the <strong>AWS Certified Cloud Practitioner</strong> certification. 
+            My focus is on cloud computing, automation, and creating seamless digital experiences.
           </p>
+          <p>
+            I am skilled in key <strong>DevOps tools</strong> including: 
+            <span> Docker, Kubernetes, Jenkins, Git, Terraform, Ansible, CI/CD pipelines, Linux, Shell Scripting, AWS</span>. 
+            I enjoy designing automated workflows, managing infrastructure efficiently, and optimizing software delivery.
+          </p>
+          <p>
+            I love learning new technologies, solving complex problems, and turning ideas into real-world solutions with clean, efficient code.
+          </p>
+
 
          <button onClick={() => {
              document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
