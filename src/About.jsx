@@ -22,7 +22,12 @@ export default function About() {
             and continuously learning new tools and frameworks.
           </p>
 
-          <button>Contact Me</button>
+         <button onClick={() => {
+             document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+            }}>
+              Contact Me
+          </button>
+
         </div>
       </div>
     </section>
