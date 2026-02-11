@@ -61,8 +61,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://wa.me/+9193098693
-            38"
+            href="https://wa.me/+919309869338"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-btn whatsapp"
