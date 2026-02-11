@@ -1,5 +1,5 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -10,10 +10,9 @@ export default function Navbar() {
       <div className="logo">Gourav's Portfolio</div>
 
       <div className={`nav-links ${open ? "open" : ""}`}>
-        <a href="/">Home</a>
-        <a href="/About.jsx">About</a>
-        <a href="#">Services</a>
-        <a href="/Education.jsx">Contact</a>
+        <Link to="/" onClick={() => setOpen(false)}>Home</Link>
+        <Link to="/about" onClick={() => setOpen(false)}>About</Link>
+        <Link to="/education" onClick={() => setOpen(false)}>Education</Link>
       </div>
 
       <div
