@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">MyBrand</div>
+      <div className="logo">Gourav's Portfolio</div>
 
       <div className={`nav-links ${open ? "open" : ""}`}>
         <a href="#">Home</a>

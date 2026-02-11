@@ -12,7 +12,7 @@ export default function About() {
         <div className="about-content">
           <h2>About Me</h2>
           <p>
-            Hi 👋 I’m <span>Your Name</span>, a passionate web developer who loves
+            Hi 👋 I’m <span>Gourav Patil</span>, a passionate web developer who loves
             building clean, responsive, and user-friendly websites. I enjoy
             working with modern technologies and turning ideas into reality.
           </p>
