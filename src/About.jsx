@@ -17,7 +17,7 @@ export default function About() {
           </p>
 
           <p>
-            I have completed my <strong>MCA (Master of Computer Applications) 2025</strong> 
+            I have completed my <strong>MCA (Master of Computer Applications) 2025 </strong> 
             and earned the <strong>AWS Certified Cloud Practitioner</strong> certification. 
             My focus is on cloud computing, automation, and creating seamless digital experiences.
           </p>
